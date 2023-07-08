@@ -246,7 +246,6 @@ gulp.task('default', gulp.series(gulp.parallel('clean:packageLock', 'clean:dist'
 // Build(Development) Task
 gulp.task('build', gulp.series('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'jsPages', 'html'));
 
-var gulp        = require('gulp');
 var deploy      = require('gulp-gh-pages');
 
 /**

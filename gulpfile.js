@@ -246,12 +246,19 @@ gulp.task('default', gulp.series(gulp.parallel('clean:packageLock', 'clean:dist'
 // Build(Development) Task
 gulp.task('build', gulp.series('clean:packageLock', 'clean:dist', 'copy:all', 'copy:libs', 'fileinclude', 'scss', 'icons', 'js', 'jsPages', 'html'));
 
-var deploy = require('gulp-gh-pages');
+// var deploy = require('gulp-gh-pages');
 
-gulp.task('deploy', function () {
-return gulp.src("./src/**/*")
-    .pipe(deploy({ 
-    remoteUrl: "https://github.com/julienpinede/julienpinede.github.io",
-    branch: "main"
-    }))
-});
+// gulp.task('deploy', function () {
+// return gulp.src("./src/**/*")
+//     .pipe(deploy({ 
+//     remoteUrl: "https://github.com/julienpinede/julienpinede.github.io",
+//     branch: "main"
+//     }))
+// });
+
+var ghPages = require('gh-pages');
+var path = require('path');
+
+gulp.task('deploy', function(cb) {
+    ghPages.publish(path.join(process.cwd(), '/src'), cb);
+  });

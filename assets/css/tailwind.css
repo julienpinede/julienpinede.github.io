@@ -1529,11 +1529,6 @@ video {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
-.rotate-\[30deg\]{
-  --tw-rotate: 30deg !important;
-  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-}
 .scale-0{
   --tw-scale-x: 0 !important;
   --tw-scale-y: 0 !important;
@@ -6419,6 +6414,10 @@ html[dir=rtl] .tns-visually-hidden {
     padding-left: 1.5rem !important;
     padding-right: 1.5rem !important;
   }
+  .md\:py-16{
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
   .md\:py-24{
     padding-top: 6rem !important;
     padding-bottom: 6rem !important;
@@ -6676,10 +6675,6 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:px-10{
     padding-left: 2.5rem !important;
     padding-right: 2.5rem !important;
-  }
-  .lg\:px-6{
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
   }
   .lg\:py-24{
     padding-top: 6rem !important;

@@ -54,5 +54,8 @@
 		"tiny-slider": "^2.9.4",
 		"tobii": "^2.0.0-alpha",
 		"wow.js": "^1.2.2"
+	},
+	"resolutions": {
+		"gift": "^0.10.2"
 	}
 }

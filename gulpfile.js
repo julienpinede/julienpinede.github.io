@@ -256,9 +256,18 @@ gulp.task('build', gulp.series('clean:packageLock', 'clean:dist', 'copy:all', 'c
 //     }))
 // });
 
+
+
 var ghPages = require('gh-pages');
 var path = require('path');
 
 gulp.task('deploy', function(cb) {
-    ghPages.publish(path.join(process.cwd(), '/src'), cb);
+    ghPages.publish(path.join(process.cwd(), '/dist'), cb);
   });
+
+// var ghPages = require('gulp-gh-pages');
+
+// gulp.task('deploy', function() {
+//   return gulp.src('./dist/**/*')  // assuming your built files are in 'dist' directory
+//     .pipe(ghPages());
+// });

@@ -2427,9 +2427,6 @@ video {
 .text-\[26px\]{
   font-size: 26px !important;
 }
-.text-\[50px\]{
-  font-size: 50px !important;
-}
 .text-\[56px\]{
   font-size: 56px !important;
 }
@@ -2455,9 +2452,6 @@ video {
 }
 .font-bold{
   font-weight: 700 !important;
-}
-.font-extrabold{
-  font-weight: 800 !important;
 }
 .font-medium{
   font-weight: 500 !important;
@@ -2613,9 +2607,6 @@ video {
 }
 .opacity-0{
   opacity: 0 !important;
-}
-.opacity-5{
-  opacity: 0.05 !important;
 }
 .opacity-50{
   opacity: 0.5 !important;
@@ -6383,9 +6374,6 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   }
-  .md\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
-  }
   .md\:grid-cols-6{
     grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
   }
@@ -6717,9 +6705,6 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:text-5xl{
     font-size: 3rem !important;
     line-height: 1 !important;
-  }
-  .lg\:text-\[72px\]{
-    font-size: 72px !important;
   }
   .lg\:text-xl{
     font-size: 1.25rem !important;

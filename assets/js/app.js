@@ -325,20 +325,20 @@ try {
 /*********************/
 /* LTR & RTL Mode */
 /*********************/
-try{
-    const htmlTag = document.getElementsByTagName("html")[0]
-    function changeLayout(e){
-        e.preventDefault()
-        const switcherRtl = document.getElementById("switchRtl")
-        if(switcherRtl.innerText === "LTR"){
-            htmlTag.dir = "ltr"
-        }
-        else{
-            htmlTag.dir = "rtl"
-        }
+// try{
+//     const htmlTag = document.getElementsByTagName("html")[0]
+//     function changeLayout(e){
+//         e.preventDefault()
+//         const switcherRtl = document.getElementById("switchRtl")
+//         if(switcherRtl.innerText === "LTR"){
+//             htmlTag.dir = "ltr"
+//         }
+//         else{
+//             htmlTag.dir = "rtl"
+//         }
         
-    }
-    const switcherRtl = document.getElementById("switchRtl")
-    switcherRtl?.addEventListener("click" ,changeLayout )
-}
-catch(err){}
+//     }
+//     const switcherRtl = document.getElementById("switchRtl")
+//     switcherRtl?.addEventListener("click" ,changeLayout )
+// }
+// catch(err){}

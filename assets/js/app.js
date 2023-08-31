@@ -1,4 +1,4 @@
-/* Template Name: Techwind - Multipurpose Tailwind CSS Landing Page Template
+/* Template Name: HeronAI - Multipurpose Tailwind CSS Landing Page Template
    Author: Shreethemes
    Email: support@shreethemes.in
    Website: https://shreethemes.in

@@ -1066,8 +1066,8 @@ video {
   -webkit-margin-end: 1.5rem !important;
           margin-inline-end: 1.5rem !important;
 }
-.ml-10{
-  margin-left: 2.5rem !important;
+.ml-20{
+  margin-left: 5rem !important;
 }
 .ms-1{
   -webkit-margin-start: 0.25rem !important;
@@ -1594,6 +1594,9 @@ video {
 .justify-around{
   -ms-flex-pack: distribute !important;
       justify-content: space-around !important;
+}
+.justify-items-center{
+  justify-items: center !important;
 }
 .gap-3{
   gap: 0.75rem !important;

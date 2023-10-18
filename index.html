@@ -47,7 +47,10 @@
     </div> -->
     <!-- Loader End -->
 
-        
+
+    <span class="fixed blur-[200px] lg:w-[600px] w-[400px] lg:h-[600px] h-[400px] rounded-full top-[10%] md:start-[10%] -start-[20%] bg-cyan/20"></span>
+    <span class="fixed blur-[200px] lg:w-[600px] w-[400px] lg:h-[600px] h-[400px] rounded-full bottom-[10%] md:end-[10%] -end-[20%] bg-purple/20"></span>
+
         <!-- Start Navbar -->
 <nav id="topnav" class="defaultscroll is-sticky">
     <div class="container relative">
@@ -97,6 +100,7 @@
 
         <!-- Start Hero -->
         <section class="relative items-center overflow-hidden">
+            <!-- <div class="absolute inset-0 bg-[url('../../assets/images/overlay.png')] bg-repeat opacity-10 dark:opacity-60"></div> -->
             <div class="container relative z-2">
                 <div class="grid grid-cols-1 md:mt-30 mt-32 text-center">
                     <div class="wow animate__animated animate__fadeIn">
@@ -107,18 +111,19 @@
                         <div class="subcribe-form mt-6 mb-3">
                             <form class="relative max-w-xl mx-auto" action="https://docs.google.com/forms/d/e/1FAIpQLScITjXJ4VQB6ZdQ7GkNkZQj_nrKvIDUM9l-wXMAFSlB10HsRw/formResponse" method="post">
                                 <input type="email" id="subcribe" name="entry.1661076605" class="form-input border-0 pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800" placeholder="Your Email Address:">
-                                <button type="submit" class="btn absolute top-[2px] end-[3px] h-[46px] bg-indigo-500 hover:bg-indigo-600 border-indigo-500 hover:border-indigo-600 text-white rounded-full">Join our Waitlist<i class="uil uil-arrow-right"></i></button>
+                                <button type="submit" class="btn absolute top-[2px] end-[3px] h-[46px] bg-dark-blue hover:bg-indigo-600 border-indigo-500 hover:border-indigo-600 text-white rounded-full">Join our Waitlist<i class="uil uil-arrow-right"></i></button>
                             </form><!--end form-->
                         </div>
 
                     </div>
-       
+                    
+                    <div class="relative after:content-[''] after:absolute lg:after:-top-0 after:-top-10 after:-right-32 after:w-[36rem] after:h-[36rem] after:border-2 after:border-dashed after:border-gold dark:after:border-slate-700 after:rounded-full after:animate-[spin_120s_linear_infinite] after:-z-1 before:content-[''] before:absolute lg:before:-top-24 before:-top-36 before:-right-56 before:w-[48rem] before:h-[48rem] before:border-2 before:border-dashed before:border-gold/60 dark:before:border-slate-700 before:rounded-full before:animate-[spin_240s_linear_infinite] before:-z-1">
+                        <!-- <div class="relative after:content-[''] after:absolute lg:after:-top-0 after:-top-10 after:-right-40 after:w-[36rem] after:h-[36rem] after:bg-gradient-to-tl after:to-gold  after:from-red-600/30 dark:after:to-gold dark:after:from-red-600/50 after: after:blur-[200px] after:rounded-full after:-z-1"> -->
                     <div class="grid mt-20 mx-auto w-3/4">
                         <div class="relative overflow-hidden rounded-lg shadow-md dark:shadow-gray-800">
                             <video controls autoplay loop muted playsinline>
                                 <source src="assets/images/demo-video_v2.mp4" type="video/mp4">
                             </video>
-        
                             <div class="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
                                 <a href="#!" data-type="youtube" data-id="pBTQSa90et0" class="lightbox lg:h-20 h-16 lg:w-20 w-16 rounded-full shadow-lg dark:shadow-gray-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 hover:bg-indigo-600 dark:hover:bg-indigo-600 text-indigo-600 hover:text-white duration-500 ease-in-out mx-auto">
                                     <i class="mdi mdi-play inline-flex items-center justify-center text-3xl"></i>
@@ -126,13 +131,15 @@
                             </div>
                         </div>
                     </div><!--end grid-->
+                </div>
+            </div>
                 </div><!--end grid-->
 
-                <div class="bg-indigo-600 w-8 h-16 z-2 absolute start-2 lg:bottom-28 md:bottom-36 sm:bottom-40 bottom-16"></div>
-                <div class="bg-indigo-600/20 w-8 h-16 z-2 absolute start-12 lg:bottom-32 md:bottom-40 sm:bottom-44 bottom-20"></div>
+                <div class="bg-purple w-8 h-16 z-2 absolute start-2 lg:bottom-28 md:bottom-36 sm:bottom-40 bottom-16"></div>
+                <div class="bg-purple/20 w-8 h-16 z-2 absolute start-12 lg:bottom-32 md:bottom-40 sm:bottom-44 bottom-20"></div>
 
-                <div class="bg-indigo-600/20 w-8 h-16 z-2 absolute end-12 xl:bottom-[420px] lg:bottom-[315px] md:bottom-[285px] sm:bottom-80 bottom-32"></div>
-                <div class="bg-indigo-600 w-8 h-16 z-2 absolute end-2 xl:bottom-[440px] lg:bottom-[335px] md:bottom-[305px] sm:bottom-[340px] bottom-36"></div>
+                <div class="bg-purple/20 w-8 h-16 z-2 absolute end-12 xl:bottom-[420px] lg:bottom-[315px] md:bottom-[285px] sm:bottom-80 bottom-32"></div>
+                <div class="bg-purple w-8 h-16 z-2 absolute end-2 xl:bottom-[440px] lg:bottom-[335px] md:bottom-[305px] sm:bottom-[340px] bottom-36"></div>
             </div><!--end container-->
         </section><!--end section-->
         <!-- End Hero -->
@@ -148,12 +155,14 @@
         
                     <h3 class="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold mt-5">Key features</h3>
                 </div>
-                
+                <div class="lg:me-6 lg:text-start text-center mt-10 mb-20">
+                    <h3 class="font-bold lg:leading-normal leading-normal text-2xl lg:text-4xl mb-5">Access powerful AI to Generate <span class="typewrite bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text" data-period="2000" data-type='[ "Financial Dashboards", "Impact Reports", "Cohort Analysis" ]'> <span class="wrap"></span> </span></h1>
+                </div>
                 <!--start feature content-->
                 <div class="grid md:grid-cols-3 grid-cols-1 mt-8 gap-[30px]" id="features">
                     <div class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
                         <div
-                            class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                            class="w-16 h-16 bg-purple/5 text-purple rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
                             <i class="uil uil-file-graph"></i>
                         </div>
 
@@ -171,7 +180,7 @@
                     
                     <div class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
                         <div
-                            class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                            class="w-16 h-16 bg-purple/5 text-purple rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
                             <i class="uil uil-bill"></i>
                         </div>
 
@@ -189,7 +198,7 @@
 
                     <div class="group p-6 md:px-4 rounded-lg shadow dark:shadow-gray-800 hover:shadow-md dark:hover:shadow-gray-700 bg-white dark:bg-slate-900 text-center transition-all duration-500 ease-in-out">
                         <div
-                            class="w-16 h-16 bg-indigo-600/5 text-indigo-600 rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
+                            class="w-16 h-16 bg-purple/5 text-purple rounded-lg text-2xl flex align-middle justify-center items-center shadow-sm dark:shadow-gray-800 mx-auto">
                             <i class="uil uil-cloud-database-tree"></i>
                         </div>
 
@@ -231,9 +240,10 @@
                         <h4 class="mb-4 text-2xl leading-normal font-medium">Text to Dashboard</h4>
                         <p class="text-slate-400">Our algorithm automatically interpretes your natural language prompt with industry-specific knowledge, aggregate the relevant data from your database and use it to create a highly curated graph that best illustrate your business.</p>
                         <ul class="list-none text-slate-400 mt-4">
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Incorporates Industry specific knowledge</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Requires no technical skills</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Generates Highly intepretable graphs</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Incorporates Industry specific knowledge</li>
+                            <!-- <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Requires no technical skills</li> -->
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Requires no technical skills</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Generates Highly intepretable graphs</li>
                         </ul>
 
                         <!-- <div class="mt-4">
@@ -254,9 +264,9 @@
                         <h4 class="mb-4 text-2xl leading-normal font-medium">Text to Business Report</h4>
                         <p class="text-slate-400">We don’t only generate graphs. From natural language prompts, we can deliver in seconds highly curated business report based on your data. </p>
                         <ul class="list-none text-slate-400 mt-4">
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Explains clearly statistics from the data</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Provides advice on how to best leverage your data</li>
-                            <li class="mb-1 flex"><i class="uil uil-check-circle text-indigo-600 text-xl me-2"></i> Offers conversationnal features to refine and interpret your reports</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Explains clearly statistics from the data</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Provides advice on how to best leverage your data</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i> Offers conversationnal features to refine and interpret your reports</li>
                         </ul>
 
                         <!-- <div class="mt-4">
@@ -265,7 +275,82 @@
                     </div>
                 </div>
             </div><!--end container-->
-            
+            <div class="container relative md:mt-24 mt-16">
+                <div class="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center mt-10 gap-[30px]">
+                    <div class="lg:col-span-6">
+                        <div class="lg:ms-8">
+                            <img src="assets/images/hosting/2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="lg:col-span-6">
+                        <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">We seamlessly connect <br> to your data sources</h3>
+                        <p class="text-slate-400 max-w-xl">No database is out of reach for HeronAI. We access the data where it already is so 
+                            you don’t have to worry about it. We can connect to any database, whether it is on the cloud or on-premise, 
+                            and we can handle any type of data, structured or unstructured.</p>
+                        </p>
+
+                        <ul class="list-none text-slate-400 mt-4">
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i>We don't replicate your data</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i>We access your data with the highest security standards</li>
+                            <li class="mb-1 flex"><i class="uil uil-check-circle text-purple text-xl me-2"></i>We can connect to a broad range of third-party providers including Salesforce, Google Analytics or Quickbooks</li>
+                        </ul>
+
+                        <div class="mt-4">
+                            <a href="page-aboutus.html" class="relative inline-block font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out">Find Out More <i class="uil uil-angle-right-b align-middle"></i></a>
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
+
+            <div class="container relative mt-40">
+                <div class="grid grid-cols-1 pb-8 text-center">
+                    <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">What Our Users Say</h3>
+                </div><!--end grid-->
+
+                <div class="grid relative grid-cols-1 mt-8">
+                    <div class="tiny-two-item">
+                        <div class="tiny-slide">
+                            <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow dark:shadow-gray-800 overflow-hidden m-2">
+                                <!-- <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/01.jpg" alt="" width="384" height="512"> -->
+                                <div class="pt-6 lg:p-6 text-center lg:text-start space-y-4">
+                                    <p class="text-base text-slate-400"> "We're very excited to collaborate with HeronAI, as they harness the power of Generative AI to allow us to more quickly and easily create reports and gain insights as we continually enhance our Orbit Software for MIT entrepreneurship. " </p>
+                                    
+                                    <div>
+                                        <span class="text-indigo-600 block mb-1">Doug Williams</span>
+                                        <span class="text-slate-400 text-sm dark:text-white/60 block">Product Lead, MIT Martin Trust Center</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiny-slide">
+                            <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow dark:shadow-gray-800 overflow-hidden m-2">
+                                <!-- <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/02.jpg" alt="" width="384" height="512"> -->
+                                <div class="pt-6 lg:p-6 text-center lg:text-start space-y-4">
+                                    <p class="text-base text-slate-400"> " The power of this platform is palpable. The generated information is invaluable and could greatly help government agencies. This platform could revolutionize not just data tracking but smart, customized data tracking on demand. Amazing! " </p>
+                                    
+                                    <div>
+                                        <span class="text-indigo-600 block mb-1">Christina Dyer</span>
+                                        <span class="text-slate-400 text-sm dark:text-white/60 block">International Chair, Rotary</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiny-slide">
+                            <div class="lg:flex p-6 lg:p-0 relative rounded-md shadow dark:shadow-gray-800 overflow-hidden m-2">
+                                <!-- <img class="w-24 h-24 lg:w-48 lg:h-auto lg:rounded-none rounded-full mx-auto" src="assets/images/client/03.jpg" alt="" width="384" height="512"> -->
+                                <div class="pt-6 lg:p-6 text-center lg:text-start space-y-4">
+                                    <p class="text-base text-slate-400"> " This tool has the potential to revolutionize access to data analysis. " </p>
+                                    
+                                    <div>
+                                        <span class="text-indigo-600 block mb-1">Megan Perry</span>
+                                        <span class="text-slate-400 text-sm dark:text-white/60 block">Data Scientist</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end grid-->
+            </div><!--end container-->
 
         </section><!--end section-->
         <!-- End Section-->
@@ -279,7 +364,7 @@
                             <div class="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
                                 <div class="lg:col-start-2 lg:col-span-10">
                                     <div class="grid md:grid-cols-2 grid-cols-1 items-center">
-                                        <div class="mt-5">
+                                        <div class="">
                                             <div class="section-title text-md-start mt-20">
                                                 <h6 class="text-white/50 text-lg font-semibold">Join the Waitlist Now</h6>
                                                 <h3 class="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mt-2">Get An Easy Start <br> With HeronAI Now</h3>
@@ -291,7 +376,7 @@
                                                 <p class="text-white/50 max-w-xl mx-auto mb-2">Start working with HeronAI that can provide everything you need to transform data in decisions.</p>
                                                 <form class="relative max-w-xl mx-auto" action="https://docs.google.com/forms/d/e/1FAIpQLScITjXJ4VQB6ZdQ7GkNkZQj_nrKvIDUM9l-wXMAFSlB10HsRw/formResponse" method="post">
                                                     <input type="email" id="subcribe" name="entry.1661076605" class="form-input border-0 pt-4 pe-40 pb-4 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-800" placeholder="Your Email Address:">
-                                                    <button type="submit" class="btn absolute top-[2px] end-[3px] h-[46px] bg-indigo-500 hover:bg-indigo-600 border-indigo-500 hover:border-indigo-600 text-white rounded-full">Join our Waitlist<i class="uil uil-arrow-right"></i></button>
+                                                    <button type="submit" class="btn absolute top-[2px] end-[3px] h-[46px] bg-dark-blue hover:bg-indigo-600 border-indigo-500 hover:border-indigo-600 text-white rounded-full">Join our Waitlist<i class="uil uil-arrow-right"></i></button>
                                                 </form><!--end form-->
                                             </div>
                                         </div>
@@ -311,6 +396,12 @@
                 </div>  
                 <div class="content mt-7">
                     <img src="assets/images/MIT_Trust_Center.png" class="rounded-lg" alt="">
+                </div>  
+                <div class="content mt-7">
+                    <img src="assets/images/I-corps.png" class="rounded-lg" alt="">
+                </div>  
+                <div class="content mt-7">
+                    <img src="assets/images/H4E_logo.png" class="rounded-lg w-80" alt="">
                 </div>  
         
         </div><!--end contaner-->

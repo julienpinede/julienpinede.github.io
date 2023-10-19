@@ -1401,6 +1401,9 @@ video {
 .w-8{
   width: 2rem !important;
 }
+.w-80{
+  width: 20rem !important;
+}
 .w-9{
   width: 2.25rem !important;
 }
@@ -1432,12 +1435,6 @@ video {
 }
 .w-full{
   width: 100% !important;
-}
-.w-64{
-  width: 16rem !important;
-}
-.w-80{
-  width: 20rem !important;
 }
 .min-w-\[100px\]{
   min-width: 100px !important;
@@ -6396,6 +6393,10 @@ html[dir=rtl] .tns-visually-hidden {
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
+  .sm\:text-sm{
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
 }
 
 @media (min-width: 768px){
@@ -6633,6 +6634,10 @@ html[dir=rtl] .tns-visually-hidden {
   }
   .md\:text-\[26px\]{
     font-size: 26px !important;
+  }
+  .md\:text-base{
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
   }
   .md\:leading-normal{
     line-height: 1.5 !important;
@@ -6896,6 +6901,10 @@ html[dir=rtl] .tns-visually-hidden {
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
   }
+  .lg\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
   .lg\:leading-normal{
     line-height: 1.5 !important;
   }
@@ -6921,5 +6930,28 @@ html[dir=rtl] .tns-visually-hidden {
   }
   .xl\:p-3{
     padding: 0.75rem !important;
+  }
+  .xl\:text-xl{
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  .xl\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:text-2xl{
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+  .\32xl\:text-xl{
+    font-size: 1.25rem !important;
+    line-height: 1.75rem !important;
+  }
+  .\32xl\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
   }
 }

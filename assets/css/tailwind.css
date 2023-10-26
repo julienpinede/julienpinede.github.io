@@ -1551,6 +1551,12 @@ video {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
+.scale-110{
+  --tw-scale-x: 1.1 !important;
+  --tw-scale-y: 1.1 !important;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}
 .transform{
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
@@ -2613,6 +2619,10 @@ video {
 .text-yellow-500{
   --tw-text-opacity: 1 !important;
   color: rgb(234 179 8 / var(--tw-text-opacity)) !important;
+}
+.text-slate-600{
+  --tw-text-opacity: 1 !important;
+  color: rgb(71 85 105 / var(--tw-text-opacity)) !important;
 }
 .opacity-0{
   opacity: 0 !important;
@@ -6546,6 +6556,12 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:w-full{
     width: 100% !important;
   }
+  .md\:w-4\/5{
+    width: 80% !important;
+  }
+  .md\:max-w-xl{
+    max-width: 36rem !important;
+  }
   .md\:shrink-0{
     -ms-flex-negative: 0 !important;
         flex-shrink: 0 !important;
@@ -6638,6 +6654,14 @@ html[dir=rtl] .tns-visually-hidden {
   .md\:text-base{
     font-size: 1rem !important;
     line-height: 1.5rem !important;
+  }
+  .md\:text-2xl{
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+  }
+  .md\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
   }
   .md\:leading-normal{
     line-height: 1.5 !important;
@@ -6810,6 +6834,9 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:w-\[600px\]{
     width: 600px !important;
   }
+  .lg\:max-w-2xl{
+    max-width: 42rem !important;
+  }
   .lg\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
   }
@@ -6897,12 +6924,12 @@ html[dir=rtl] .tns-visually-hidden {
     font-size: 3rem !important;
     line-height: 1 !important;
   }
-  .lg\:text-xl{
-    font-size: 1.25rem !important;
-    line-height: 1.75rem !important;
-  }
   .lg\:text-lg{
     font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+  .lg\:text-xl{
+    font-size: 1.25rem !important;
     line-height: 1.75rem !important;
   }
   .lg\:leading-normal{
@@ -6928,16 +6955,23 @@ html[dir=rtl] .tns-visually-hidden {
   .xl\:bottom-\[440px\]{
     bottom: 440px !important;
   }
+  .xl\:max-w-3xl{
+    max-width: 48rem !important;
+  }
   .xl\:p-3{
     padding: 0.75rem !important;
+  }
+  .xl\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
   }
   .xl\:text-xl{
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
   }
-  .xl\:text-lg{
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
+  .xl\:text-2xl{
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
   }
 }
 
@@ -6946,12 +6980,16 @@ html[dir=rtl] .tns-visually-hidden {
     font-size: 1.5rem !important;
     line-height: 2rem !important;
   }
+  .\32xl\:text-lg{
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
   .\32xl\:text-xl{
     font-size: 1.25rem !important;
     line-height: 1.75rem !important;
   }
-  .\32xl\:text-lg{
-    font-size: 1.125rem !important;
-    line-height: 1.75rem !important;
+  .\32xl\:text-3xl{
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
   }
 }

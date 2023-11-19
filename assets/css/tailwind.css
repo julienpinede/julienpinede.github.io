@@ -1557,6 +1557,12 @@ video {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
 }
+.scale-50{
+  --tw-scale-x: .5 !important;
+  --tw-scale-y: .5 !important;
+  -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+          transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}
 .transform{
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
           transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
@@ -1964,6 +1970,9 @@ video {
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/team\.jpg\'\)\]{
   background-image: url('../../assets/images/team.jpg') !important;
 }
+.bg-\[url\(\'\.\.\/\.\.\/assets\/images\/team\/heron-team-3\.jpg\'\)\]{
+  background-image: url('../../assets/images/team/heron-team-3.jpg') !important;
+}
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/utility\.jpg\'\)\]{
   background-image: url('../../assets/images/utility.jpg') !important;
 }
@@ -2111,6 +2120,9 @@ video {
 .bg-clip-text{
   -webkit-background-clip: text !important;
           background-clip: text !important;
+}
+.bg-\[center_70\%\]{
+  background-position: center 70% !important;
 }
 .bg-center{
   background-position: center !important;
@@ -6735,6 +6747,10 @@ html[dir=rtl] .tns-visually-hidden {
   .lg\:me-8{
     -webkit-margin-end: 2rem !important;
             margin-inline-end: 2rem !important;
+  }
+  .lg\:ms-10{
+    -webkit-margin-start: 2.5rem !important;
+            margin-inline-start: 2.5rem !important;
   }
   .lg\:ms-5{
     -webkit-margin-start: 1.25rem !important;
